@@ -1,0 +1,16 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx tailwindcss -i ./main.css -o ./template/css/app.css",
+    "watch": "npx tailwindcss -i ./main.css -o ./template/css/app.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
